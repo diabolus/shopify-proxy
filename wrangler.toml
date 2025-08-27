@@ -1,6 +1,7 @@
 name = "shopify-cart-proxy"
-main = "src/index.ts"
+main = "dist/worker.js"
 compatibility_date = "2023-07-24"
+compatibility_flags = ["nodejs_compat"]
 
 [vars]
 SHOPIFY_API_URL = "https://dept-guerkan.myshopify.com/api/2023-07/graphql.json"
