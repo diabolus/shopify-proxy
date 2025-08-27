@@ -1,0 +1,9 @@
+name = "shopify-cart-proxy"
+main = "src/index.ts"
+compatibility_date = "2023-07-24"
+
+[vars]
+SHOPIFY_API_URL = "https://{YOUR_SHOP_NAME}.myshopify.com/api/2023-07/graphql.json"
+
+[secrets]
+SHOPIFY_API_TOKEN
